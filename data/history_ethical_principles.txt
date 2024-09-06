@@ -1,0 +1,208 @@
+History and Ethical Principles - SBE
+Content Author
+
+Lisa Robinson Bailey, MA
+Duke University
+Introduction
+
+Research with human subjects has a long and often troubled history in the U.S. and throughout the world. Chances are you already have heard of some of the most egregious and well-known examples of unethical research in the biomedical sciences, such as the experiments conducted by Nazi doctors and scientists on concentration camp prisoners during World War II, and the U.S. Public Health Service Syphilis Study at Tuskegee (Tuskegee Study). These abuses led to the creation of codes of research ethics in Europe and the U.S.
+
+• Unethical Research and Abuses
+	  Creation of Research Ethic Codes
+
+In the wake of the Second World War, the subsequent Nuremberg Trials on war crimes produced the Nuremberg Code, which outlined ten points for conducting ethical research with human subjects. Nearly two decades later, the World Medical Association (WMA) developed a code of research ethics known as the Declaration of Helsinki, published in 1964 and subsequently revised. This document is built on both the Nuremberg Code and the physician's code of ethics known as the Declaration of Geneva.
+
+In the U.S., news that researchers deceived and withheld treatment from subjects who suffered from syphilis in the PHS Tuskegee Study led to the creation of the National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (National Commission or "the Commission"). The Commission was charged with establishing a code of research ethics for U.S. research involving human subjects.
+
+Revelations from Tuskegee Study
+	  Creation of National Commission
+	  Commission issued Belmont Report
+	  U.S. regulations for protection of research subjects
+
+In 1979, the Commission issued the Belmont Report, the foundational document of the current system of U.S. human subjects protections. The Belmont Report outlines three key ethical principles for conducting research with human subjects:
+
+Respect for persons
+Beneficence
+Justice
+The Belmont Report informed the U.S. Department of Health and Human Services (HHS) Code of Federal Regulations (45 CFR 46), which was created in 1974 and later revised. In 1991, Subpart A of these regulations "Basic HHS Policy for the Protection of Human Research Subjects" was adopted by 15 federal agencies and became known as the Common Rule. In 2017, HHS and 15 other federal agencies issued a revision to 45 CFR 46, Subpart A to strengthen human subject protections, as well as improve efficiency in research administration and operations. 20 agencies (including HHS) intend to follow the revised Common Rule (OHRP 2018).
+
+Landmark social sciences studies such as Milgram's Obedience to Authority study, Zimbardo's Stanford Prison Experiment, and Humphreys' Tearoom Trade study, made it clear that social and behavioral research may carry risks of harm related to psychological well-being, violations of autonomy and privacy, and reputational damage. Despite good intentions and best efforts, researchers are not always able to anticipate risks of harm. This module aims to bring human subjects protections into focus for researchers in the social and behavioral sciences, education, and humanities, by examining the complex issues raised by research with human subjects and how these issues may be addressed using the ethical principles outlined in the Belmont Report.
+
+Excerpts from the Belmont Report appear in this module in italics. The full report (approximately seven pages long) provides the conceptual foundation for the federal regulations and is recommended reading.
+
+Learning Objectives
+
+By the end of this module you should be able to:
+
+Understand the historic context of the Belmont Report.
+Identify the three ethical principles described in the Belmont Report.
+Describe the relationship between the Belmont principles and federal regulations.
+Discuss examples of how the ethical principles can be applied to research in the social and behavioral sciences, education, and humanities.
+Ethical Principles of the Belmont Report
+
+
+Respect for Persons
+Respect for persons incorporates at least two ethical convictions: first, that individuals should be treated as autonomous agents, and second, that persons with diminished autonomy are entitled to protection. The principle of respect for persons thus divides into two separate moral requirements: the requirement to acknowledge the autonomy and the requirement to protect those with diminished autonomy (The National Commission 1979).
+
+Autonomy
+Autonomy means that people must be empowered to make decisions concerning their own actions and well-being. According to the principle of respect for persons, researchers must acknowledge the "considered opinions and choices" of research subjects. In other words, individuals must be given the choice whether to participate in research, and they must be provided sufficient information and possess the mental competence to make that choice.
+
+• Respect for Persons
+		• Subjects are fully informed about research
+		• Subjects choose to participate or not
+
+Respect for persons also recognizes that some individuals may not be capable of making decisions or choices that are in their best interest. Individuals with "diminished decision-making capacity" may lack the ability to comprehend study procedures or how participating in a study might adversely affect them. Special care should be taken to protect those with diminished capacity to the point of excluding individuals who are not able to give meaningful consent to participate in research.
+
+Children are a class of research subjects with limited autonomy. Typically, a parent or legal guardian must give permission for a child to participate in a study. Researchers also should ask child subjects for their assent by explaining the study in terms they can understand.
+
+Voluntariness
+Voluntariness is an essential component of respect for persons. Research subjects must be free to choose to participate in research. They also must be free to end their participation for any reason, without consequences.
+
+Voluntariness means more than offering people the choice to participate in or withdraw from research. Researchers should be aware of situations in which prospective subjects may feel pressured to participate in a study. In situations where a relationship between the researcher and subjects already exists, such as when a volunteer at a homeless shelter decides to conduct research with that population, the lines between voluntariness and undue influence may be blurred. People might be reluctant to decline participation if they have come to know the researcher in another role.
+
+Other examples of situations in which researchers may exert undue influence because they are in positions of authority include:
+
+• Undue Influence
+		Employers conducting research with their employees 
+		Professors conducting research with their students
+
+Informed Consent
+A prospective research subject's autonomy is honored through the process of informed consent. The Office for Human Research Protections (OHRP 2014) offers these guidelines:
+
+“The informed consent process involves three key features: (1) disclosing to potential research subjects information needed to make an informed decision; (2) facilitating the understanding of what has been disclosed; and (3) promoting the voluntariness of the decision about whether or not to participate in the research.”
+
+Researchers must provide certain essential points of information, such as:
+
+• Purpose of the research
+		• Description of what the subject will be expected to do
+		• Any foreseeable risks of harm
+		• Participation is voluntary and subjects are free to withdraw at anytime
+
+The HHS regulations (Protection of Human Subjects 2018) require that the prospective subject be provided with information that a reasonable person would want in order to make an informed decision. Further, key information essential to decision-making should receive priority by appearing at the beginning of the consent document and being presented first in the consent discussion.
+
+Informed consent also must be comprehensible to prospective subjects. Comprehension is the ability to understand what one is being asked to do, as well as the implications of any risks of harm associated with participating in the research. Comprehension may depend on an individual's mental capacity, but it also relates to the comprehensibility of the informed consent document, or, in the case of oral consent, the script. Researchers should create consent processes that are at an appropriate language level for the subject population. Study information can be presented in a conversational style that is easily understood by a wide range of individuals. In general, an eighth-grade reading level or lower is advised.
+
+When conducting research in a language other than the researcher's native language, the researcher needs to ensure that translations are accurate and in the appropriate dialect and address idiomatic expressions that may not make sense in another language. The 2018 revisions to the Common Rule also noted that there may be subjects from a community or group where signing forms is not the norm. Researchers should consider requesting, from the reviewing IRB, approval of an appropriate alternative mechanism for documenting that informed consent was obtained (Protection of Human Subjects 2018).
+
+The Principles in Practice
+In Laud Humphreys' study, detailed in his book Tearoom Trade: Impersonal Sex in Public Places, the researcher observed men meeting other men for casual sexual encounters in public restrooms. Humphreys, then a sociology graduate student, gained the confidence of the men by pretending to be a participant and acting as a lookout. While Humphreys eventually revealed himself as a researcher to some of the men and was able to interview them openly, he withheld his identity from many others, recording the license plate numbers of a subset of 100 other tearoom regulars in order to contact them for interviews at a later date.
+
+A year after completing the observational part of the study, Humphreys followed up with these subjects, including them in a separate social health study that enabled him to conduct in-home surveys and gather data about their family relationships and religious background. In a 1970 article taken from his book, Humphreys maintained that the researcher's obligation to protect respondents from harm was a critical ethical assumption. To avoid being recognized by the interview subjects, Humphreys changed his appearance and the kind of car he drove.
+
+“I already knew that many of my respondents were married and that all were in a highly discreditable position and fearful of discovery. How could I approach these covert deviants for interviews? By passing as deviant, I had observed their sexual behavior without disturbing it. Now, I was faced with interviewing these men (often in the presence of their wives) without destroying them” (Humphreys 1970).
+
+Although the resulting book, based on Humphreys' dissertation, may have been beneficial in dispelling some stereotypes, the research violated the autonomy of the individuals who became part of Humphreys' study without their knowledge.
+
+Humphrey’s Tearoom Trade Study
+		Violated subjects’ autonomy – subjects were not informed about the study, and did not choose whether to participate
+
+Humphreys' research occurred in a different regulatory environment, prior to the creation of the National Commission and the codification of federal regulations protecting human subjects.
+
+A more recent example of research that obtained personal information about individuals without their knowledge is the "Tastes, Ties, and Time (T3)" study (2006-2009). Sociologists gleaned voluminous and detailed personal information from the Facebook profiles of an entire class of undergraduates and followed those students over four years. The research team created an extensive data set that included students’ gender, home state, major, political and group affiliations, friend networks, photographs, and tastes in music, books, and film. In 2008, the researchers made the data publicly available through the Dataverse Network Project. Although no students were identified by name, some data were specific enough to allow for re-identification of students by an outside researcher (Zimmer 2010; Parry 2011).
+
+Harvard University 'Tastes, Ties, and Time (T3)' Study Violated subjects’ autonomy and privacy– subjects did not agree to participate in the research, and subjects were able to be identified (failure of researchers to protect subjects from deductive disclosure)
+
+In both of these studies, the ethical concerns are invasion of privacy, lack of informed consent, and a failure to protect against deductive disclosure of identity.
+
+Beneficence
+Persons are treated in an ethical manner not only by respecting their decisions and protecting them from harm, but also by making efforts to secure their well-being. Such treatment falls under the principle of beneficence. The term 'beneficence' is often understood to cover acts of kindness or charity that go beyond strict obligation. In this document, beneficence is understood in a stronger sense, as an obligation. Two general rules have been formulated as complementary expression of beneficent actions in this sense: (1) do not harm and (2) maximize possible benefits and minimize possible harms (The National Commission 1979).
+
+Minimizing Risks of Harm and Maximizing Possible Benefits
+Most research in the social and behavioral sciences, education, and humanities, does not provide direct benefit to subjects, and risks of harm tend to be minimal. Even so the goal for researchers is to conduct research where risks to subjects are reasonable in relation to anticipated benefits.
+
+The most common risks of harm are psychological distress surrounding sensitive research and inadvertent disclosure of private identifiable information.
+
+Studies of sexuality, mental health, interpersonal violence, and illegal activities may create feelings of distress, as well as risk of embarrassment and reputational harm if private information that would not ordinarily be shared with a stranger or outsider, becomes public. Researchers may choose to use pseudonyms in an effort to protect the privacy of subjects, but other bits of information, taken alone or in combination, may be enough to allow for re-identification of subjects.
+
+A great deal of research in the social and behavioral sciences, however, involves minimal risk procedures, such as gathering and reporting on aggregate data using surveys and interviews.
+
+Some research involves deception, which is permissible, if researchers provide justification for the deception and prepare debriefing procedures for the subjects at the end of the study that describe the deception and explain the scientific rationale for its use (for exempt research under Category 3 using deception, the subject must authorize the deception prior to its use).
+
+Frequently, it is not the nature of the data collected but what the researcher does with the data that carries the most risk of harm for subjects. Data security and the very notion of privacy have changed dramatically with the explosion of social media, cloud storage, data mining of web-based information, and re-identification techniques.
+
+Refraining from collecting subject names is a simple way of reducing risk of harm due to inadvertent disclosure of private identifiable information. As we have seen from the T3 study, however, that is rarely sufficient as data re-identification has emerged as a growing computer science specialization. Latanya Sweeney (2000), director of the Data Privacy Lab at Harvard University, has demonstrated that 87 percent of Americans can be uniquely identified by only three bits of demographic information: five-digit zip code, gender, and date of birth.
+
+The Principles in Practice
+Social and behavioral sciences research has the potential to cause psychological and even physical distress.
+
+One example is, "The Stanford Prison Experiment," Philip Zimbardo's 1971 landmark psychological study of the human response to captivity, specifically prison life. Zimbardo assigned roles to male student volunteers to create groups of "prisoners" and "guards." The simulation became so intense that physical and psychological abuse of "prisoners" by "guards" escalated and several of the subjects experienced distress less than 36 hours after the study began. Zimbardo's study, like Humphreys' study, occurred in a different regulatory environment, before the advent of the Belmont Report. Zimbardo did submit his research plan to an ethics board, but the consent process contained no provisions allowing subjects to withdraw at will, and no risks of harm beyond loss of privacy were addressed. According to Zimbardo (2012), the consent form signed by the subjects only allowed them "to be released from participation for reasons of health deemed adequate by the medical advisers to the research project or for other reasons deemed appropriate by Dr. Philip Zimbardo." Zimbardo did not stop the experiment until six days had passed.
+
+• Stanford Prison Experiment
+		Psychological Risks of Harm
+		Physical Risks of Harm
+
+Other risks of harm may be social or reputational. With the publication of the 20th anniversary edition of her 1977 book, Saints, Scholars, and Schizophrenics: Mental Illness in Rural Ireland, ethnographer Nancy Scheper-Hughes reflected upon failing to protect the confidentiality and dignity of her subjects who felt that she had violated their trust and depicted the community in an unflattering light. Scheper-Hughes commented in her written account that, in retrospect, the use of pseudonyms and misleading indirect identifiers were inadequate as confidentiality measures because the subjects were easily able to identify themselves and their neighbors.
+
+I would be inclined to avoid the "cute" and "conventional" use of pseudonyms. Nor would I attempt to scramble certain identifying features of the individuals portrayed on the naïve assumption that these masks and disguises could not be rather easily de-coded by the villagers themselves. I have come to see that the time-honored practice of bestowing anonymity on "our" communities and informants fools few and protects no one-save, perhaps, the anthropologist's own skin (Scheper-Hughes 2000).
+
+• Nancy Scheper-Hughes' book Saints, Scholars, and Schizophrenics: Mental Illness in
+		Rural Ireland
+		Social Risks of Harm
+		Reputational Risks of Harm
+
+Studies focusing on political violence or other illicit activities may expose subjects to legal harms. The legal issues surrounding the "Boston College Oral History Archive of the Troubles in Northern Ireland" demonstrate the difficulty of promising confidentiality to subjects. Former members of the Irish Republican Army (IRA) agreed to be interviewed only if their accounts would remain sealed until their deaths. Subsequently, in response to a subpoena from the British government, the institution was ordered to turn over 85 interviews of former IRA members for use in Britain's investigation of unsolved murders (Dwyer 2011).
+
+• 'Boston College Oral History Archive of the Troubles in Northern Ireland'
+		Legal Risks of Harm
+
+Justice
+
+Who ought to receive the benefits of research and bear its burdens? This is a question of justice, in the sense of "fairness in distribution" or "what is deserved." An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly (The National Commission 1979).
+
+Distributing Benefits and Burdens of Research
+Justice requires that the benefits and burdens of research are equitably distributed -- that is, no individual or population is exposed to risks of harm while other individuals or populations receive the benefits. One example is cited in the Belmont Report (The National Commission 1979): "During the 19th and early 20th centuries the burdens of serving as research subjects fell largely upon poor ward patients, while the benefits of improved medical care flowed primarily to private patients." The Tuskegee Study and the Nazi experiments on concentration camp prisoners are well-documented examples of research injustices.
+
+• Justice
+		• Benefits and burdens of research are equitably distributed
+		• Subject populations are not chosen because of convenience
+
+Similarly, researchers are discouraged from using prisoners, literally a captive population, as research subjects merely because they are a convenient study population. Other examples of populations chosen for convenience would be professors conducting research on their own students, or a researcher including subjects only on a particular social media platform because it is the most convenient (not because it is an adequate sample population for the research).
+
+In the context of examples such as the Tuskegee Study and the Nazi experiments, injustice is obvious. In non-medical research, however, the issue of justice presents in more nuanced ways. Lawrence O. Gostin, a professor of global health law at Georgetown University, speaks to an ethical duty to research subjects that goes beyond non-harming.
+
+In thinking about justice toward subjects, researchers need to consider equitable selection so that individuals are chosen on the basis of factors clearly relevant to the problems being studied. Researchers also need to consider equitable distribution of advantages to research subjects and others who could benefit from the knowledge gained by the research (Gostin 1991, 191-201).
+
+Psychologist Joan E. Sieber maintains that the research question itself, as well as the interpretation of the data, may contain an inherent bias that singles out a particular group of subjects and leads to, or reinforces, unjust treatment of that group: "One historically sensitive area of the application of research findings is examining racial differences. Another example relates to the use of psychological test results in order to promote a policy of sterilization for the mentally retarded population" (Sieber and Stanley 1988).
+
+On the issue of justice, Sieber summarizes:
+
+Justice and equitable treatment refer to issues of procedural and distributive justice that may arise at any stage of the research process. An idea that creates prejudices against some sector of society is unfair. An experimental treatment is also unfair if resources known to be vital to subjects' well-being are withheld from subjects in one group and given to those in another.
+
+The Principles in Practice
+In educational research testing (such as a new curriculum or teaching method), subjects in the treatment group may derive benefits from the intervention while subjects in the control group do not have access to that intervention. If the program being tested is specific to that age group, the control group participants would not have the opportunity to benefit from that intervention in the future. To fulfill the Belmont principle of justice, the control group must receive standard instruction.
+
+Balancing the Three Principles
+It was the National Commission's intention that each of the three principles should have equal moral force. This means that in some situations, the three principles might be in conflict with one another. For example, we might derive from the principle of respect for persons that we should limit the involvement of children in research because children are unable to choose for themselves. However, we might derive from the principle of justice that we must involve children in studies so that children will have the opportunity to benefit from the research. The Belmont Report states that one principle does not always outweigh another. Rather, we are required to consider each case separately and on its own merits while seeking to uphold all three principles.
+
+• Use of Deception in Research
+		Violates principle of respect for persons
+		Adheres to principle of beneficence
+
+The issue of deception in research illustrates this tension between principles. When an Institutional Review Board (IRB) feels the use of deception is justified because the research question could not be answered if subjects were fully informed but there are potential benefits, the principle of beneficence holds greater weight than that of respect for persons. For example, deceptive experimental manipulations may be used to make subjects feel rejected in order to study the effects of social rejection.
+
+The Belmont Report and the Common Rule
+The Common Rule (Protection of Human Subjects 2018) lists criteria for IRB approval of a research plan that are directly related to the three Belmont principles.
+
+Respect for Persons
+Informed consent will be sought from each prospective subject or the subject's legally authorized representative, in accordance with, and to the extent required by 46.116.
+Informed consent will be appropriately documented, in accordance with, and to the extent required by 46.117.
+When appropriate, there are adequate provisions to protect the privacy of subjects and to maintain the confidentiality of data.
+When some or all of the subjects are likely to be vulnerable to coercion or undue influence, such as children, prisoners, individuals with impaired decision-making capacity, or economically or educationally disadvantaged persons, additional safeguards have been included in the study to protect the rights and welfare of these subjects.
+Beneficence
+Risks to subjects are minimized: (i) By using procedures which are consistent with sound research design and which do not unnecessarily expose subjects to risk, and (ii) whenever appropriate, by using procedures already being performed on the subjects for diagnostic or treatment purposes.
+Risks to subjects are reasonable in relation to anticipated benefits, if any, to subjects, and the importance of the knowledge that may reasonably be expected to result. In evaluating risks and benefits, the IRB should consider only those risks and benefits that may result from the research (as distinguished from risks and benefits of therapies subjects would receive even if not participating in the research). The IRB should not consider possible long-range effects of applying knowledge gained in the research (for example, the possible effects of the research on public policy) as among those research risks that fall within the purview of its responsibility.
+When appropriate, the research plan makes adequate provision for monitoring the data collected to ensure the safety of subjects.
+When appropriate, there are adequate provisions to protect the privacy of subjects and to maintain the confidentiality of data.
+Justice
+Selection of subjects is equitable. In making this assessment the IRB should take into account the purposes of the research and the setting in which the research will be conducted and should be particularly cognizant of the special problems of research involving vulnerable populations, such as children, prisoners, individuals with impaired decision-making capacity, or economically or educationally disadvantaged persons.
+Case StudyHistory and Ethical Principles
+
+Dr. Maccarone is a psychologist who is interested in conducting a study on factors that contribute to flare-ups of symptoms associated with generalized anxiety disorder (GAD). He recruits adult subjects who have been diagnosed with GAD in the past year, and tells them during the consent process that the purpose of the study is to try to understand what causes GAD. If subjects agree to participate, they are told that they will only have to fill out the same survey twice (to account for "lab coat anxiety"), separated by 10 minutes while having their blood pressure and EKG monitored. Once consented, the subjects complete their first survey that asks questions on the characteristics of their GAD and assessment of possible etiology. Unbeknownst to the subjects, they have been randomized to either complete the surveys in silence, or have background news playing through speakers. For those in the latter group, the broadcast is fictional and concentrates on reporting acts of terrorism, local shootings, airplane crashes, and other anxiety-inducing stories. Once the second survey is completed, the subject is thanked and leaves the laboratory.
+
+Are any ethical principles of the Belmont Report violated in this proposed study?
+
+Given the identification of such risk, is the risk of the manipulation minimized, as required by the principle of beneficence?
+
+Close
+Summary
+Historical events and contemporary abuses inform the development of ethics related to the protection of human research subjects. The Belmont Report, along with federal regulations and professional codes of ethics, offer guidance for IRB review, based on three key ethical principles: respect for persons, beneficence, and justice.

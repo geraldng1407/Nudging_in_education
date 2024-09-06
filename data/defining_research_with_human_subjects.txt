@@ -1,0 +1,82 @@
+Defining Research with Human Subjects - SBE (modified by SMU-IRB)
+Content Author
+Lorna Hicks, M.S., CIP
+Duke University
+
+Introduction
+One of the first questions researchers must ask is if the activity they propose to conduct is, in fact, research. If they determine it is research, the next question is to ask is if the activity involves human subjects. These are important because the answers determine if the activity is subject to IRB oversight. SMU-IRB guidelines for protecting research subjects provide basic definitions of "research" and of "human subjects." This module will interpret words and phrases used in the definitions from the perspective of research in the social and behavioral sciences and the humanities.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Explain the definition of research
+Explain the definition of human subject
+Describe the differences between private and public information and behavior
+Defining "Research"
+Research is defined by the SMU-IRB guidelines, as "a systematic investigation including research development, testing and evaluation, designed to develop or contribute to generalizable knowledge."
+
+"Systematic investigation"
+A great deal of research in the social and behavioral sciences uses what is commonly thought of as the scientific method. However, the interpretation of the term "systematic investigation" depends largely upon discipline-specific methods. It is possible for research to be systematic without conforming in every respect to the elements of the conventional scientific method. For example, when ethnographers study communities, they may not have a priori hypotheses, but many aspects of their research may be systematic including the selection of subjects, decisions about what observations to record, and their interview process.
+
+"Including research development, testing, and evaluation"
+Pilot studies, feasibility studies, and other preliminary studies clearly fall under the definition of research. Both of the following preliminary components of a study constitute research with human subjects:
+
+A focus group of Latino immigrants to help researchers develop a questionnaire about how sexually transmitted diseases are transmitted across borders.
+Pilot testing of a questionnaire before the administration of the questionnaire and analysis of the results.
+"Designed to develop or contribute to generalizable knowledge"
+
+To generalize is to derive general conclusions from particulars. Generalizable knowledge is a goal of most basic research. Even research about the most narrowly defined topic, such as an individual case study or the study of an isolated community, may be intended to contribute to a body of knowledge such as the function of culture, the expression of gender, or the political views of marginalized community members.
+
+Some researchers in the social and behavioral sciences and humanities contend that the regulations were designed to govern only biomedical research. They then, reasonably, assume that "generalizable knowledge" is only that which is hypothesis driven, quantitative, and replicable. While it is true that abuses in biomedical research drove the development of the current regulations, the regulations were designed to cover all research with human subjects. The regulations specifically refer to interviews, oral history, focus groups, and other qualitative methods. Therefore, the concept of "generalizable knowledge" has to be broadened. (The development of drugs, biologics, and medical devices is governed by a separate set of regulations developed by the U.S. Food and Drug Administration.)
+
+An essential consideration is whether it was the intent of the researcher to contribute to generalizable knowledge. Some activities that involve interactions with humans and data gathering may not fit the definition of research with human subjects, because they are designed to accomplish something else, such as in-house quality improvement. For example, a survey of college students about university counseling services may be designed strictly to improve service delivery for students on that campus, and thus does not meet the definition of generalizability.
+
+Publication of results in a peer-reviewed journal is sometimes used as a measure of whether research is generalizable, but this is too narrow a measure for several reasons. First, not every study will produce results worthy of publication. Second, there are multiple ways in which results can be made available to others without being published in a peer-reviewed journal. Results may be presented at a conference or made the subject of a seminar. They may be shared with colleagues through the Internet or appear in a dissertation.
+
+Defining "Human Subject"
+According to the regulations, a human subject is a "living individual about whom an investigator (whether professional or student) conducting research obtains:
+
+Data through intervention or interaction with the individual, or
+Identifiable private information."
+The following four sections will consider key words and phrases in the definition.
+
+"A living individual"
+Research about people who are deceased, such as historical research, does not meet the definition of research with human subjects.
+
+"About whom"
+Most research in the social and behavioral sciences involves gathering information about individuals. However, some research that involves interactions with people does not meet the regulatory definition of research with human subjects because the focus of the investigation is not the opinions, characteristics, or behavior of the individual. In other words, the information being elicited is not about the individual ("whom"), but rather is about "what".
+
+For example, if a researcher calls the director of a shelter for battered women and asks her for the average length of stay of the women who use the shelter, that inquiry would not meet the definition of research with human subjects because the information requested is not "about" the director. If the researcher interviewed the director about her training, experience, and how she defines the problem of battering, then the inquiry becomes about her - and thus "about whom."
+
+"Interactions"
+Interactions include communication or interpersonal contact between the subject and the researcher. Communication does not have to be face to face, and may even exist entirely on paper or in electronic realms. Participant observation is a variant of interaction, often including both formal and informal interviews in addition to observation.
+
+"Interventions"
+Interventions include physical procedures through which data are gathered, such as measuring brain function to supplement paper and pencil inquiries into the development of language and behavioral interventions such as experimental education programs or unproven psycho-social therapies. They also include manipulation of the subject or the subject's environment performed for research purposes, for example, studies investigating the effect of music on memory.
+
+"Identifiable private information"
+Recruiting subjects, especially students, for a research study requires not only full disclosure but, also protections from coercion and loss of confidentiality.
+As defined in the regulations, private information includes:
+
+Information about behavior that occurs in a context in which an individual can reasonably expect that no observation or recording is taking place
+Information which has been provided for specific purposes by an individual and which the individual can reasonably expect will not be made public (for example, a school record).
+The regulations further state that private information must be individually identifiable (that is, the identity of the subject is or may be readily ascertained by the researcher or associated with the information) in order for obtaining the information to constitute research with human subjects.
+
+The following two sections will expand on the definition of identifiable private information.
+
+Observing and Recording Private Behavior
+Subjects in observational research are also afforded protections from invasion of privacy.
+It is important to keep in mind that whether a setting is public is, by definition, determined in large part by the potential subjects' expectations of privacy, rather than any absolute distinctions between public and private spaces. For example, one might expect that certain behavior, even if conducted in public spaces, is in fact private, such as a conversation in a public park. It is reasonable to assume that one might expect not to be taped while dining with a date at a restaurant.
+
+Researchers who wish to obtain information in a context in which subjects would have a reasonable expectation of privacy may choose to use covert observation (concealed recording devices and videotaping or use of a one-way mirror) or assume a role in the setting or group being studied. Such studies raise significant concerns about violation of privacy and require additional protections and safeguards for subjects. Observational studies in quasi-public places, for example, hospital emergency rooms or state psychiatric hospital wards, may also raise such concerns.
+
+Private Information Provided by Individuals for Specific Purposes
+Individuals provide personal information with the expectation that it not be made public in a variety of settings, for example, at work, at school, when receiving health care, or as a member of an organization.
+
+Some of this information is protected by law. In Singapore, the collection, use and disclosure of personally identifiable information is governed by Personal Data Protection Act (PDPA) 2012. Please click on the links provided to understand more about the guidelines of PDPA 2012 (relevant sections include 'Analytics and Research', 'Anonymization' and 'Withdrawal of Consent').
+
+Data files including identifiable private information are compiled and maintained by both public and private institutions. Owners of identifiable data impose restrictions on the use of the data. They may release de-identified data publicly, but only release identifiable data to investigators with IRB-approved data protection plans.
+
+Summary
+The definitions of "research" and "human subject" are essential for determining which research activities are subject to regulation and review. Important concepts include generalizability, identifiability, and public versus private information.

@@ -1,0 +1,132 @@
+Introduction
+
+The public relies on the validity of research conducted at universities, academic medical centers, and other institutions. Public funds support much of the research done at these institutions, with the expectation that the work will adhere to the highest ethical standards and yield results that may benefit society. In response to congressional and public concerns regarding the objectivity of research due to the financial interests of investigators, U.S. institutions must take on increasing responsibilities regarding financial conflicts of interest (FCOIs).
+
+This module explains the rationale for institutions to address investigators' FCOIs, defines the principles used to assess the possible impact of financial interests on research, and provides strategies that can help eliminate or minimize bias in research.
+
+Learning Objectives
+
+By the end of this module, you should be able to:
+
+Recognize that institutions receiving funding from the U.S. Public Health Service (PHS) agencies must require their investigators to disclose certain types of financial information.
+Describe how institutions collaborating on research projects identify, review, and manage conflicts of interest (COIs).
+Comprehend the expectations that institutions have as they review and evaluate their investigators’ financial interest reports.
+Explain the circumstances under which an investigator's significant financial interest (SFI) or institutional financial interest could affect the objectivity of research.
+Recognize why institutions must develop management strategies to address FCOIs.
+Recognize that the U.S. Food and Drug Administration (FDA) requires the sponsor of research to collect and report investigators’ financial interests.
+Describe the public accessibility requirement in the PHS regulations.
+Describe the circumstances under which an institution must develop and implement a mitigation report.
+Overview of Institutional Obligations in Addressing Conflicts of Interest in Research
+Investigators seek to gain new knowledge and improve the health and welfare of the public. Society expects that relevant advances will be put to practical use. In the course of bringing an idea to fruition, investigators may receive compensation for the following:
+
+• Their advice and consultation
+        • The rights to their inventions
+        • Speaking in educational forums
+
+In the case of PHS-funded research, institutions must ensure, however, that these financial interests do not create unacceptable risks to research objectivity. If an institution identifies an FCOI, it must develop and implement a management plan to mitigate bias due to the conflict.
+
+These plans require active participation by the investigator and involve oversight by the institution. In addition, the institution must communicate the existence of an FCOI and details of the management plan to the funding agency.
+
+Institutional Obligations and the 2011 Final Rule
+As noted in the Financial Conflicts of Interest: Overview, Investigator Responsibilities, and COI Rules (COI-Basic) module, the U.S. Department of Health and Human Services (HHS) issued a Final Rule on FCOI in 2011. Institutions applying for or receiving PHS funding were required to comply with the new rule and revised regulations by 24 August 2012.
+
+Institutions may choose to apply the standards of the revised regulations to all research, irrespective of whether there is PHS support.
+
+Under the regulations (42 CFR 50, Subpart F [Promoting Objectivity in Research 2011]), institutions must take on additional responsibilities with respect to COIs in PHS-funded research. As such, institutions must:
+
+"Maintain an up-to-date, written, enforced policy on financial conflicts of interest that complies with this subpart, and make such policy available via a publicly accessible Web site."
+"Designate an institutional official(s) to solicit and review disclosures of significant financial interests from each Investigator who is planning to participate in, or is participating in, the PHS-funded research."
+"Provide guidelines consistent with this subpart for the designated institutional official(s) to determine whether an Investigator's significant financial interest is related to PHS-funded research and, if so related, whether the significant financial interest is a financial conflict of interest."
+"Take such actions as necessary to manage financial conflicts of interest...Management of an identified financial conflict of interest requires development and implementation of a management plan and, if necessary, a retrospective review and a mitigation report."
+Disclosure and Conflict Management
+New Grant Proposal to Test a New Diabetes Treatment
+
+A faculty physician at a university is submitting a grant application, as the principal investigator, for funding to the National Institutes of Health (NIH). The application intends to evaluate the effectiveness of two drug-based treatment regimens for managing type 2 diabetes. The investigator serves on the scientific advisory board of a biomedical company for which he has been compensated $3,000 during the past 12 months as an expert in diabetes management. He has also purchased $10,000 of the company's publicly traded stock. This company manufactures and sells one of the commonly used drugs to treat type 2 diabetes; this drug is also being studied as a component of one of the regimens in the new research for which NIH funding is being sought.
+
+Questions for Consideration
+
+Does the investigator need to disclose these interests (the cash and the equity) to the university no later than the time of submission of this grant application?
+
+If applying the PHS standards, will the university view these significant and related financial interests as an FCOI?
+
+Close
+PHS-funded investigators must disclose SFIs related to their institutional responsibilities and reimbursed or sponsored travel to their institutions. That is, the institution must review the disclosed information and determine whether the interests:
+
+o Relate to an investigator’s PHS-supported research
+	  o	Could have a direct and significant effect on the design, conduct, or reporting of the research (an FCOI)
+
+Some institutions require other researchers, including those not funded by the PHS, to adhere to similar disclosure requirements. Investigators should familiarize themselves with their institutions’ relevant policies and requirements.
+
+Conflict Management
+When an institution identifies an FCOI related to PHS-funded research, it must develop and implement a management plan. Management may simply consist of a disclosure in presentations and manuscripts. It may also include measures such as removing the conflicted individual from primary oversight of the research or reducing or eliminating the financial interest. When reporting FCOIs to the PHS-awarding component, institutions must affirm the investigator's agreement to comply with a management plan.
+
+Reporting to PHS Awarding Components
+The regulations impose expanded reporting obligations on institutions for FCOIs in PHS-funded projects. Institutions must submit reports prior to the expenditure of funds and when competitive and non-competitive renewals are granted for ongoing projects. They must report newly disclosed FCOIs for PHS-funded research within 60 days of becoming aware of the new interest. They must also report annual updates at the times of submission of the annual progress reports.
+
+Institutions must report the following information to the PHS awarding component:
+
+The grant/contract number
+The name of the project director, principal investigator, or contact person (when there are multiple project directors or principal investigators)
+The name of the investigator with the FCOI
+The name of the entity with which the investigator has the FCOI
+The nature of the FCOI (such as equity, consulting fees, travel reimbursement, or honoraria)
+The value of the financial interest in specified ranges: $0-4,999, $5,000-9,999, $10,000-19,999, amounts between $20,000 and $100,000 by increments of $20,000, and amounts above $100,000 by increments of $50,000, or a statement that the interest is one whose value cannot be readily determined through reference to public prices or other reasonable measures of fair market value
+A description of how the SFI relates to the PHS-funded research and the basis for the institution's determination that the SFI conflicts with the research
+Elements of a Management Plan
+The institution must update the funding agency on the status of the FCOI and any changes to the management plan annually. In accordance with the regulations, an institution's management plan must describe the (Promoting Objectivity in Research 2011):
+
+A. Role and principal duties of the conflicted Investigator in the research project;
+		B. Conditions of the management plan;
+		C. How the management plan is designed to safeguard objectivity in the research project;
+		D. Confirmation of the Investigator's agreement to the management plan;
+		E. How the management plan will be monitored to ensure Investigator compliance; and
+		F. Other information as needed.
+
+FDA Reporting Requirements for Investigational New Drug/Investigational Device Exemption (IND/IDE) Holders
+In accordance with the U.S. Food and Drug Administration (FDA) regulations (21 CFR 54 [Financial Disclosure by Clinical Investigators 1998]), financial disclosures must be submitted to and retained by the sponsor of the research. The sponsor is the individual or entity that holds the IND or IDE for FDA-regulated research. If researchers hold the IND or IDE, the sponsor-investigator is responsible for collecting and maintaining financial disclosures and related management plans. The FDA (2013) provides guidance on how clinical investigators should handle financial disclosures.
+
+Public Disclosure Standards and Requirements
+The revised PHS regulations require institutions to make certain information about the FCOIs of senior/key personnel publicly available, which they can do in one of two ways: on a public website or in response to a written request within five business days. The information to be publicly disclosed is a subset of the information reported to the National Institutes of Health (NIH). It includes the conflicted investigator's name, title, and role; the name of any entities in which the investigator has an SFI; the nature of the SFI; and the annual dollar value in specified ranges.
+
+In addition to federal agencies, the Association of American Medical Colleges (AAMC), the International Committee of Medical Journal Editors (ICMJE), and other organizations recommend or require disclosure. Disclosure provides a measure of fairness to the recipient of the disclosure, whether a research subject, reader of a published work, or listener at a lecture. Yet disclosure may not have the intended effect on the target audience; it might not mitigate bias by itself (Cain et al. 2011; Cain et al. 2005). Despite this, disclosure is usually a best practice. In many cases, disclosing relevant financial interests and relationships in the course of one's professional activities is a necessary but insufficient step toward managing COI.
+
+Retrospective Review, Identification of Bias, and Mitigation Reporting Requirement
+
+If a researcher does not disclose an SFI in a timely manner, or if for any reason the institution did not previously review it, the institution must, within 60 days from that point, determine whether the SFI relates to PHS-funded research and if it is an FCOI. If it is an FCOI, the institution must implement, at least on an interim basis, a management plan.
+
+When a researcher fails to disclose an FCOI in a timely manner or comply with a management plan, or where the institution fails to manage an FCOI, the institution must, within 120 days, complete a retrospective review of research to determine whether there was bias in the design, conduct, or reporting of the research conducted during the period of noncompliance. If an institution identifies bias, it must develop a mitigation report that outlines a plan of action to eliminate or mitigate the effect of the bias. The institution must report the results of that determination and the mitigation report to the PHS.
+
+COI for Awardees and Subrecipients
+The revised HHS regulations have specific requirements for collaborative PHS-funded research between awardee institutions and their subrecipients. Financial interests must be monitored and dealt with at the awardee institutions to assure the PHS of the appropriate identification and elimination or management of the FCOI. The collaborating institutions can accomplish this through an agreement that specifies which institution's COI policy will apply to the research project (assuming the collaborating institutions both have PHS-compliant policies).
+
+A Start-up Company to Field Test a Psychological Assessment Tool
+
+Researchers at an academic center have developed a new medical device that can be implanted using a much less invasive procedure than conventional surgery. Dr. Smith, a psychology faculty member, wishes to test her hypothesis that there are significant psychological benefits of the speedier recovery from this procedure. Dr. Smith will use an assessment tool she developed to quantify the speed of recovery and relative postsurgical well-being of patients receiving either standard surgical treatment or less invasive surgery with the new device.
+
+Dr. Smith obtained a grant from the National Institute of Mental Health (NIMH) to fund the studies that will test her hypothesis. After eight months of NIMH funding, Dr. Smith discloses to the institution that a year ago her assessment tool was patented and commercialized by the institution, sold to a company (Surgery Devices, LLC), and she has been getting a portion of the royalties that come to the institution for its sale and use. She also disclosed that up until six months ago she consulted for Surgery Devices, LLC and received $8,500 for the 12 months prior to the termination of the consulting relationship.
+
+Questions for Consideration
+
+Do the royalty revenues need to be reported?
+
+Does Dr. Smith's consulting arrangement with Surgery Devices need to be reported?
+
+Close
+If the awardee institution's policy applies, the agreement needs to specify a deadline for the subrecipient to submit disclosures of their researchers' SFIs to the awardee institution, so it can review the SFIs for FCOI and take any necessary action within the timeframe specified by the regulation.
+
+If the subrecipient's COI policy applies, the subrecipient must certify that their policy complies with the regulations. The subrecipient must also submit the identification and elimination or management of any FCOI to the awardee institution by a specified deadline.
+
+Travel Reporting Requirement
+Institutions must review investigators' disclosure of travel reimbursed or sponsored by an outside entity and determine whether it represents an FCOI with PHS-supported research. The disclosure must include the sponsor, destination, duration, and purpose of the travel. Institutions have the discretion to request additional information from the investigators, including the monetary value of the travel.
+
+Excluded from the disclosure requirement is travel sponsored by:
+
+A U.S. federal, state, or local government agency;
+A U.S. institution of higher education as defined at 20 U.S.C. 1001(a);
+A U.S. academic teaching hospital;
+A U.S. medical center; or
+A U.S. research institute that is affiliated with an institution of higher education.
+Notice Number: NOT-OD-13-004 includes more information about the NIH's policy on the disclosure of reimbursed or sponsored travel.
+
+Summary
+The regulations that went into effect 24 August 2012 instituted substantial changes for many institutions and researchers with respect to PHS-funded research. Researchers must disclose outside financial interests to their institutions. Institutions must make decisions as to which financial interests are "significant" and whether they conflict with the researchers’ institutional responsibilities. The institution must also decide if it will eliminate or manage the FCOIs in an attempt to remove bias.
