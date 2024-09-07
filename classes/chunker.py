@@ -14,21 +14,6 @@ class Chunker:
                               api_key=os.getenv("OPENAI_API_KEY"))
         self.sections = []
 
-    # def relevancy(self, docs):
-    #     self.llm = self.llm.bind_tools([Relevance])
-    #     prompt_description = ChatPromptTemplate.from_template(RELEVANT_PROMPT)
-    #     parser = JsonOutputKeyToolsParser(key_name='Relevance')
-
-    #     self.parsed_job = (prompt_description | self.llm | parser)
-    #     res = []
-    #     for doc in docs:
-    #         # print(doc.page_content)
-    #         if self.parsed_job.invoke({
-    #             "document": doc.page_content
-    #         })[0]['is_relevant']:
-    #             res.append(doc)
-    #         # print("----------------")
-    #     return res
     def number_paragraphs(self, text):
         # Split the text into paragraphs
         paragraphs = text.split('\n\n')

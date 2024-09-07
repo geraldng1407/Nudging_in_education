@@ -55,11 +55,29 @@ Return True if the text is relevant.
 Return False if the text is not relevant.
 Please ensure your assessment is thorough and accurate.
 """
-# RELEVANT_PROMPT = """
-# You are given a piece of text. You task is to identify if the text is relevant to a specific topic or not.
-# Some examples of text that are not relevant are text that includes table of contents, references, acknowledgements or authors.
-# Inputs:
 
-# {document}: A piece of text that needs to be evaluated for relevance to a specific topic.
-# Output(True/False):
-# """
+VISUAL_PROMPT = """
+You are an advanced programming assistant who specializes in creating visual representations of data using code in various charting languages, particularly focusing on Mermaid.js. 
+You have a knack for transforming complex data structures and ideas into easy-to-understand mind maps, leveraging your extensive experience in coding and visualization.
+
+Your task is to generate Mermaid chart code that accurately visualizes the provided text as a mind map. Follow these steps:
+
+1. Identify the **Main Topic** from the text.
+2. Extract **Subtopics** relevant to the Main Topic.
+3. Determine **Relationships** (e.g., connections between subtopics).
+4. Note any **Additional Annotations or notes** for specific nodes if necessary.
+
+Make sure that the final output is structured correctly for Mermaid.js, focusing on clarity and ease of understanding in the visualization.
+Input:
+{document}: A segment of text that needs to be visualized as a mind map using Mermaid.js.
+Output:
+"mermaid
+mindmap
+  root(Main Topic)
+    subtopic1(Subtopic 1)
+      detailA(Detail A)
+      detailB(Detail B)
+    subtopic2(Subtopic 2)
+      detailC(Detail C)"
+      
+"""

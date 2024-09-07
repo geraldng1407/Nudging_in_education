@@ -19,3 +19,6 @@ class Index(BaseModel):
     
 class Indexes(BaseModel):
     indexes: List[Index] = Field(..., description="A list of indexes that have been extracted from the input text")
+    
+class MermaidCode(BaseModel):
+    code: str = Field(..., description="The mermaid code that represents the visual representation of a provided segment of text as a mind map.")
