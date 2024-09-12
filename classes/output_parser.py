@@ -22,3 +22,6 @@ class Indexes(BaseModel):
     
 class MermaidCode(BaseModel):
     code: str = Field(..., description="The mermaid code that represents the visual representation of a provided segment of text as a mind map.")
+    
+class Summary(BaseModel):
+    summary: str = Field(..., description="The summary of the provided segment of text")

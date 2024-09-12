@@ -84,18 +84,15 @@ with st.container():
         uploaded_file = st.file_uploader("Upload", type=["txt", "docx"])
 
 if uploaded_file is not None:
-
     if 'chunked_sections' not in st.session_state:
-
         # Read the file as a string and process only once
         doc = str(uploaded_file.read(), "utf-8")
         chunker = Chunker()
-
-        chunked_sections = chunker.split(doc)
-
+        with st.spinner('Uploading File...'):
+            chunked_sections = chunker.split(doc)
         section_titles = list(chunked_sections.keys())
         section_bodies = list(chunked_sections.values())
-
+        st.toast('File uploaded successfully!', icon="✅")
         # Store results in session state so they persist across reruns
         st.session_state.chunked_sections = chunked_sections
         st.session_state.section_titles = section_titles
@@ -113,6 +110,7 @@ def create_mermaid_code(code):
     return """
 <html>
   <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <style>
       .mermaid {
   display: grid;
@@ -129,7 +127,6 @@ def create_mermaid_code(code):
     <pre class="mermaid">
 """ + code + """
     </pre>
-
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
       mermaid.initialize({ startOnLoad: true });
@@ -140,34 +137,40 @@ def create_mermaid_code(code):
 
 
 if 'section_titles' in st.session_state:
+    with col2:
+      selected_title = st.selectbox("Choose an section:",
+                                    options=st.session_state.section_titles,
+                                    index=None,
+                                    placeholder="Select a section",)
+      if selected_title is not None:
+          study_type = st.radio(
+              "Study Type", ["Visual", "Summary", "Scenario"], horizontal=True, index=None)
+          content_generator = ContentGenerator()
+          if "generated_content" not in st.session_state:
+              st.session_state.generated_content = {}
+          key = (selected_title, study_type)
+          if study_type == "Visual":
+              regenerate = st.button("Regenerate Mindmap")
+              # components.html(mermaid_js, height=1000)
+              if regenerate or key not in st.session_state.generated_content:
+                  st.session_state.generated_content[key] = content_generator.create_visual(
+                      st.session_state.section_bodies[st.session_state.section_titles.index(selected_title)])
+              components.html(create_mermaid_code(
+                  st.session_state.generated_content[key]), height=1000)
+          elif study_type == "Summary":
+              regenerate = st.button("Regenerate Summary")
+              # components.html(mermaid_js, height=1000)
+              if regenerate or key not in st.session_state.generated_content:
+                  st.session_state.generated_content[key] = content_generator.create_summary(
+                      st.session_state.section_bodies[st.session_state.section_titles.index(selected_title)])
+              st.text_area("",
+                          st.session_state.generated_content[key],
+                          height=400)
+          elif study_type == "Scenario":
+              st.write("Scenario")
+          # body_index = st.session_state.section_titles.index(selected_title)
 
-    selected_title = st.selectbox("Choose an section:",
-                                  options=st.session_state.section_titles,
-                                  index=None,
-                                  placeholder="Select a section",)
-    if selected_title is not None:
-        study_type = st.radio(
-            "Study Type", ["Visual", "Summary", "Scenario"], horizontal=True, index=None)
-        content_generator = ContentGenerator()
-        if "generated_content" not in st.session_state:
-            st.session_state.generated_content = {}
-        key = (selected_title, study_type)
-        if study_type == "Visual":
-            st.write("Visual")
-            regenerate = st.button("Regenerate Mindmap")
-            # components.html(mermaid_js, height=1000)
-            if regenerate or key not in st.session_state.generated_content:
-                st.session_state.generated_content[key] = content_generator.create_visual(
-                    st.session_state.section_bodies[st.session_state.section_titles.index(selected_title)])
-            components.html(create_mermaid_code(
-                st.session_state.generated_content[key]), height=1000)
-        elif study_type == "Summary":
-            st.write("Summary")
-        elif study_type == "Scenario":
-            st.write("Scenario")
-        # body_index = st.session_state.section_titles.index(selected_title)
-
-        # # Display text area with content corresponding to the selected title.
-        # body_content = st.text_area("",
-        #                             value=st.session_state.section_bodies[body_index],
-        #                             height=400)
+          # # Display text area with content corresponding to the selected title.
+          # body_content = st.text_area("",
+          #                             value=st.session_state.section_bodies[body_index],
+          #                             height=400)

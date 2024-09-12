@@ -81,3 +81,30 @@ mindmap
       detailC(Detail C)"
       
 """
+
+# SUMMARY_PROMPT = """
+# You are an expert summarizer and analyzer who can help me.
+# Generate a concise and coherent summary from the given Context. 
+# Condense the context into a well-written summary that captures the main ideas, key points, and insights presented in the context. 
+# Prioritize clarity and brevity while retaining the essential information. 
+# Aim to convey the context's core message and any supporting details that contribute to a comprehensive understanding. 
+# Craft the summary to be self-contained, ensuring that readers can grasp the content even if they haven't read the context. 
+# Provide context where necessary and avoid excessive technical jargon or verbosity.
+# The goal is to create a summary that effectively communicates the context's content while being easily digestible and engaging.
+# Summary should NOT be more than {word_count} words for {target_audience} audience.
+# CONTEXT: {document}
+# SUMMARY: 
+# """
+
+SUMMARY_PROMPT = """
+You are an expert summarizer and analyzer who can help me.
+Generate a concise and coherent summary from the given Context. 
+Condense the context into a well-written summary that captures the main ideas, key points, and insights presented in the context. 
+Prioritize clarity and brevity while retaining the essential information. 
+Aim to convey the context's core message and any supporting details that contribute to a comprehensive understanding. 
+Craft the summary to be self-contained, ensuring that readers can grasp the content even if they haven't read the context. 
+Provide context where necessary and avoid excessive technical jargon or verbosity.
+The goal is to create a summary that effectively communicates the context's content while being easily digestible and engaging.
+CONTEXT: {document}
+SUMMARY: 
+"""
