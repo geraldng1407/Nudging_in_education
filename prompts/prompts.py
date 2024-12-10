@@ -1,11 +1,4 @@
-# CHUNKER_PROMPT = """
-# Task: Chunk Text into Sections
-# You are provided with a piece of text. Your task is to chunk the text into sections based on the content.
-# At the start of each paragraph, there is a paragraph index. You will return the start and end index to group the paragraphs into sections.
-# Input:
-# {document}: A piece of text that needs to be chunked into sections.
-# Output:
-# """
+
 
 CHUNKER_PROMPT = """
 Task: Chunk Text into Sections
@@ -28,33 +21,13 @@ So far, several attempts have been made to achieve a gradual transfer towards au
 Workplace simulations were implemented, intended to improve autonomous learning behavior in an environment reflecting the future workspace.
 It became clear, however, that simply giving autonomy in these workplace simulations was not enough to promote students’ autonomous learning behavior.
 Output: 'start': 1, 'end': 3, 'title': 'Attempts to Achieve Autonomy'
+Try to ensure that each section should be at least 20 sentences long.
 
 Input:
 {document}: A piece of text that needs to be chunked into sections.
 Output:
 """
 
-
-RELEVANT_PROMPT = """
-Task: Determine Text Relevance to a Specific Topic
-You are provided with a piece of text. Your task is to assess whether this text is relevant to a specific topic or not.
-
-Irrelevant Text Examples:
-- Table of contents
-- References
-- Acknowledgements
-- Author information
-- Header Information
-- Preface information
-
-Input:
-{document}: A segment of text that needs to be evaluated for its relevance to the specified topic.
-
-Output:
-Return True if the text is relevant.
-Return False if the text is not relevant.
-Please ensure your assessment is thorough and accurate.
-"""
 
 VISUAL_PROMPT = """
 You are an advanced programming assistant who specializes in creating visual representations of data using code in various charting languages, particularly focusing on Mermaid.js. 
@@ -79,8 +52,8 @@ mindmap
       detailB(Detail B)
     subtopic2(Subtopic 2)
       detailC(Detail C)"
-      
 """
+
 
 # SUMMARY_PROMPT = """
 # You are an expert summarizer and analyzer who can help me.
@@ -91,7 +64,6 @@ mindmap
 # Craft the summary to be self-contained, ensuring that readers can grasp the content even if they haven't read the context. 
 # Provide context where necessary and avoid excessive technical jargon or verbosity.
 # The goal is to create a summary that effectively communicates the context's content while being easily digestible and engaging.
-# Summary should NOT be more than {word_count} words for {target_audience} audience.
 # CONTEXT: {document}
 # SUMMARY: 
 # """
@@ -104,7 +76,73 @@ Prioritize clarity and brevity while retaining the essential information.
 Aim to convey the context's core message and any supporting details that contribute to a comprehensive understanding. 
 Craft the summary to be self-contained, ensuring that readers can grasp the content even if they haven't read the context. 
 Provide context where necessary and avoid excessive technical jargon or verbosity.
+
+**Important:**
+1. **Headings Structure:** 
+   - Use Markdown syntax to create clear and hierarchical headings.
+   - Use `#` for main sections (H1) if the summary covers multiple major topics.
+   - Use `##` for sub-sections (H2) to delineate key points or categories within the main sections.
+   - Ensure each heading accurately reflects the content of its corresponding section.
+
+2. **Keyword Highlighting:** 
+   - Identify and highlight key keywords in the summary by wrapping them in `<span>` tags with a specific background color.
+   - Use the following format for highlighting: `<span style="background-color: #47b3b3;">keyword</span>`
+
+Ensure that the summary maintains a logical flow, with headings appropriately segmenting the content to enhance readability and comprehension.
+
 The goal is to create a summary that effectively communicates the context's content while being easily digestible and engaging.
+
 CONTEXT: {document}
-SUMMARY: 
+SUMMARY:
+"""
+
+SCENARIO_PROMPT = """
+Based on the key themes, concepts, and findings in this paper, generate three distinct scenarios or domains that relate to the content. Each scenario should:
+Explore different aspects, applications, or implications of the article.
+Be unique and not overlap with the other scenarios.
+Ensure that the scenarios are creative, relevant, and feasible, highlighting how they connect to the article findings.
+"""
+
+MULTI_CHOICE_PROMPT = """
+Based on the following content, perform the following tasks:
+1. Generate three distinct scenarios or domains that relate to the content. Each scenario should:
+   - Be presented as a short paragraph.
+   - Explore different aspects, applications, or implications of the article.
+   - Be unique and not overlap with the other scenarios.
+   - Ensure that the scenarios are creative, relevant, and feasible, highlighting how they connect to the article findings.
+2. For each scenario, create three multiple-choice questions. Each question should have four options labeled 'A' to 'D', with only one correct answer.
+3. Ensure that the questions accurately assess understanding of the scenario.
+
+**Few-Shot Examples:**
+
+**Content:** Implementing AI in Classroom Management
+
+**Scenario 1:** Enhancing Personalized Learning through AI  
+AI can revolutionize personalized learning by adapting educational content to fit each student's unique learning pace and style. This allows for more effective engagement and better academic outcomes.
+
+**Questions:**
+**Question 1:** What is a primary benefit of using AI for personalized learning?  
+A) Reducing the need for teachers  
+B) Personalizing learning experiences  
+C) Increasing administrative workload  
+D) Limiting student creativity  
+**Answer:** B
+
+**Question 2:** How can AI tools impact student engagement?  
+A) By automating grading, making it less engaging  
+B) By providing real-time feedback and interactive content  
+C) By replacing all human interactions  
+D) By restricting access to learning materials  
+**Answer:** B
+
+**Question 3:** What is a potential drawback of AI in personalized learning?  
+A) Enhanced data privacy  
+B) Improved teacher-student relationships  
+C) Over-reliance on technology  
+D) Increased manual tasks for teachers  
+**Answer:** C
+
+**Content:** {content_text}
+
+**Scenarios and Questions:**
 """

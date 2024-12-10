@@ -4,7 +4,7 @@ from langchain.output_parsers.openai_tools import JsonOutputKeyToolsParser
 from langchain_openai import ChatOpenAI
 
 from classes.output_parser import Relevance, Indexes
-from prompts.prompts import RELEVANT_PROMPT, CHUNKER_PROMPT
+from prompts.prompts import CHUNKER_PROMPT
 import os
 
 
