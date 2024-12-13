@@ -1,6 +1,8 @@
 
-# File: Nudging_in_education/app.py
-
+'''
+docker build -t nudging_in_education .
+docker run -p 8501:8501 --env-file ./.env nudging_in_education
+'''
 import streamlit as st
 from classes.chunker import Chunker
 from classes.content_generator import ContentGenerator
@@ -8,8 +10,13 @@ import streamlit.components.v1 as components
 from prompts.prompts import MULTI_CHOICE_PROMPT
 from classes.output_parser import ScenariosWithQuestions, ScenarioWithQuestions, Question
 import os
-
+from datetime import datetime
+import json
+import threading
+from dotenv import load_dotenv
+load_dotenv()
 # Function to create Mermaid code (unchanged)
+feedback_lock = threading.Lock()
 
 
 def create_mermaid_code(code):
@@ -43,6 +50,71 @@ def create_mermaid_code(code):
 def main():
     # Set page configuration
     st.set_page_config(layout="wide")
+
+    # Initialize session state variables
+    if 'feedback_open' not in st.session_state:
+        st.session_state.feedback_open = False
+
+    # Apply custom CSS for the floating button
+    st.markdown("""
+    <style>
+    .floating-button {
+        position: fixed;  
+        bottom: 30px;
+        right: 30px;
+        background-color: #47b3b3;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        font-size: 32px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        cursor: pointer;
+        z-index: 1000;  /* Ensures button is always on top */
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .floating-button:hover {
+        background-color: #2e8b8b;
+        transform: scale(1.1);
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Floating feedback button with toggle functionality
+    if st.button("💬Feedback", key="feedback_button"):
+        st.session_state.feedback_open = not st.session_state.feedback_open
+
+    # Display the feedback form in the sidebar if feedback_open is True
+    if st.session_state.feedback_open:
+        with st.sidebar:
+            st.header("Feedback")
+            with st.form("feedback_form"):
+                feedback_rating = st.select_slider(
+                    "Rate the quality of the output:",
+                    options=["1 - Very Poor", "2 - Poor", "3 - Average", "4 - Good", "5 - Excellent"]
+                )
+                feedback_comments = st.text_area("Additional Comments:")
+                submitted = st.form_submit_button("Submit Feedback")
+                
+                if submitted:
+                    # Retrieve the current study_type from session_state
+                    study_type = st.session_state.get('current_study_type', None)
+                    
+                    if study_type is None:
+                        st.error("Please select a study type before submitting feedback.")
+                    else:
+                        feedback = {
+                            "rating": feedback_rating,
+                            "comments": feedback_comments,
+                        }
+                        save_feedback(feedback, study_type)
+                        st.success("Thank you for your feedback!")
+                        
+                        # Immediately close the feedback sidebar
+                        st.session_state.feedback_open = False
+
 
     # Centered upload button
     with st.container():
@@ -102,27 +174,29 @@ def main():
                     "Study Type",
                     ["Visual", "Summary", "Scenario"],  # Unified 'Scenario'
                     horizontal=True,
-                    index=None,
+                    index=0,
                     label_visibility="collapsed"
                 )
+                st.session_state.current_study_type = study_type
                 content_generator = ContentGenerator()
 
                 if "generated_content" not in st.session_state:
                     st.session_state.generated_content = {}
 
                 key = (selected_title, study_type)
-
+                
                 if study_type == "Visual":
                     regenerate = st.button("Regenerate Mindmap")
                     if regenerate or key not in st.session_state.generated_content:
-                        try:
-                            mermaid_code = content_generator.create_visual(
-                                st.session_state.section_bodies[st.session_state.section_titles.index(
-                                    selected_title)]
-                            )
-                            st.session_state.generated_content[key] = mermaid_code
-                        except ValueError as ve:
-                            st.error(f"Error generating visual: {ve}")
+                        with st.spinner("Generating Mindmap..."):
+                            try:
+                                mermaid_code = content_generator.create_visual(
+                                    st.session_state.section_bodies[st.session_state.section_titles.index(
+                                        selected_title)]
+                                )
+                                st.session_state.generated_content[key] = mermaid_code
+                            except ValueError as ve:
+                                st.error(f"Error generating visual: {ve}")
 
                     if key in st.session_state.generated_content:
                         components.html(create_mermaid_code(
@@ -131,14 +205,15 @@ def main():
                 elif study_type == "Summary":
                     regenerate = st.button("Regenerate Summary")
                     if regenerate or key not in st.session_state.generated_content:
-                        try:
-                            summary = content_generator.create_summary(
-                                st.session_state.section_bodies[st.session_state.section_titles.index(
-                                    selected_title)]
-                            )
-                            st.session_state.generated_content[key] = summary
-                        except ValueError as ve:
-                            st.error(f"Error generating summary: {ve}")
+                        with st.spinner("Generating Summary..."):
+                            try:
+                                summary = content_generator.create_summary(
+                                    st.session_state.section_bodies[st.session_state.section_titles.index(
+                                        selected_title)]
+                                )
+                                st.session_state.generated_content[key] = summary
+                            except ValueError as ve:
+                                st.error(f"Error generating summary: {ve}")
 
                     if key in st.session_state.generated_content:
                         summary_content = st.session_state.generated_content[key]
@@ -147,15 +222,16 @@ def main():
                 elif study_type == "Scenario":
                     regenerate = st.button("Regenerate Scenario and Questions")
                     if regenerate or key not in st.session_state.generated_content:
-                        try:
-                            content_text = st.session_state.section_bodies[st.session_state.section_titles.index(
-                                selected_title)]
-                            scenarios = content_generator.create_scenarios_with_questions(
-                                content_text)
-                            st.session_state.generated_content[key] = scenarios
-                        except ValueError as ve:
-                            st.error(
-                                f"Error generating scenarios and questions: {ve}")
+                        with st.spinner("Generating Scenarios and Questions..."):
+                            try:
+                                content_text = st.session_state.section_bodies[st.session_state.section_titles.index(
+                                    selected_title)]
+                                scenarios = content_generator.create_scenarios_with_questions(
+                                    content_text)
+                                st.session_state.generated_content[key] = scenarios
+                            except ValueError as ve:
+                                st.error(
+                                    f"Error generating scenarios and questions: {ve}")
 
                     if key in st.session_state.generated_content:
                         scenarios = st.session_state.generated_content[key]
@@ -186,15 +262,15 @@ def main():
                                 # Create a list of labels like "A) Option Text"
                                 option_labels = [
                                     f" {text}" for letter, text in options_with_letters.items()]
-
+                                
                                 # Use the option letters as the actual values
                                 selected_letter = st.radio(
-    f"**{question_number}: {question.get('question')}**", 
-    options=option_letters,
-    format_func=lambda x: option_labels[option_letters.index(x)], 
-    key=f"{key}_{idx}_{q_idx}",
-    index=None
-)
+                                    f"**{question_number}: {question.get('question')}**", 
+                                    options=option_letters,
+                                    format_func=lambda x: option_labels[option_letters.index(x)], 
+                                    key=f"{key}_{idx}_{q_idx}",
+                                    index=None
+                                )
 
                                 user_answers[q_idx] = selected_letter
 
@@ -221,6 +297,48 @@ def main():
 
                             st.markdown("---")  # Separator between scenarios
 
+def save_feedback(feedback, study_type):
+    """
+    Save feedback to a JSON file categorized by study_type.
+
+    The JSON structure will be:
+    {
+        "Visual": [ ... ],
+        "Summary": [ ... ],
+        "Scenario": [ ... ]
+    }
+    """
+    feedback_file = "feedback.json"
+    feedback_path = os.path.join(os.getcwd(), feedback_file)
+    valid_study_types = ["Visual", "Summary", "Scenario"]
+
+    if study_type not in valid_study_types:
+        st.error(f"Invalid study type: {study_type}")
+        return
+
+    try:
+        with feedback_lock:
+            if os.path.exists(feedback_path):
+                with open(feedback_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+            else:
+                # Initialize the JSON structure if it doesn't exist
+                data = {stype: [] for stype in valid_study_types}
+
+            # Ensure all study_type keys exist
+            for stype in valid_study_types:
+                if stype not in data:
+                    data[stype] = []
+
+            # Append the feedback to the appropriate study_type list
+            data[study_type].append(feedback)
+
+            # Write the updated data back to the JSON file
+            with open(feedback_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+
+    except Exception as e:
+        st.error(f"Failed to save feedback: {e}")
 
 if __name__ == "__main__":
     main()
