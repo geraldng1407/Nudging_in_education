@@ -3,8 +3,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers.openai_tools import JsonOutputKeyToolsParser
 from langchain_openai import ChatOpenAI
 
-from evaluation.output_parser import Keywords, Evaluation
-from evaluation.prompts import KEYWORDS_PROMPT, EVALUATE_MINDMAP
+from evaluation.output_parser import Keywords, Evaluation, Evaluation_Scenario
+from evaluation.prompts import KEYWORDS_PROMPT, EVALUATE_MINDMAP, EVALUATE_SCENARIO
 import os
 
 
@@ -42,3 +42,20 @@ class EvalGenerator:
                 return result[0]
 
         raise ValueError("Failed to generate eval after 5 attempts")
+    
+    def evaluate_scenario(self, context, scenario_and_questions):
+        self.llm = self.llm.bind_tools([Evaluation_Scenario])
+        prompt_description = ChatPromptTemplate.from_template(EVALUATE_SCENARIO)
+        parser = JsonOutputKeyToolsParser(key_name='Evaluation_Scenario')
+
+        self.parsed_job = (prompt_description | self.llm | parser)
+
+        for _ in range(5):  # Retry up to 5 times
+            result = self.parsed_job.invoke({
+                "context": context,
+                "scenario_and_questions": scenario_and_questions
+            })
+            if result and 'relevancy_score' in result[0]:
+                return result[0]
+
+        raise ValueError("Failed to evaluate scenario and questions after 5 attempts")

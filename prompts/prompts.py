@@ -29,9 +29,8 @@ Output:
 """
 
 
-
 # VISUAL_PROMPT = """
-# You are an advanced programming assistant who specializes in creating visual representations of data using code in various charting languages, particularly focusing on Mermaid.js. 
+# You are an advanced programming assistant who specializes in creating visual representations of data using code in various charting languages, particularly focusing on Mermaid.js.
 # You have a knack for transforming complex data structures and ideas into easy-to-understand mind maps, leveraging your extensive experience in coding and visualization.
 
 # Your task is to generate Mermaid chart code that accurately visualizes the provided text as a mind map. Follow these steps:
@@ -59,7 +58,7 @@ Output:
 # """
 
 # VISUAL_PROMPT = """
-# You are an advanced programming assistant who specializes in creating visual representations of data using code in various charting languages, particularly focusing on Mermaid.js. 
+# You are an advanced programming assistant who specializes in creating visual representations of data using code in various charting languages, particularly focusing on Mermaid.js.
 # You have a knack for transforming complex data structures and ideas into easy-to-understand mind maps, leveraging your extensive experience in coding and visualization.
 
 # Your task is to generate Mermaid chart code that accurately visualizes the provided text as a mind map. Follow these steps:
@@ -169,21 +168,21 @@ mindmap
 
 # SUMMARY_PROMPT = """
 # You are an expert summarizer and analyzer who can help me.
-# Generate a concise and coherent summary from the given Context. 
-# Condense the context into a well-written summary that captures the main ideas, key points, and insights presented in the context. 
-# Prioritize clarity and brevity while retaining the essential information. 
-# Aim to convey the context's core message and any supporting details that contribute to a comprehensive understanding. 
-# Craft the summary to be self-contained, ensuring that readers can grasp the content even if they haven't read the context. 
+# Generate a concise and coherent summary from the given Context.
+# Condense the context into a well-written summary that captures the main ideas, key points, and insights presented in the context.
+# Prioritize clarity and brevity while retaining the essential information.
+# Aim to convey the context's core message and any supporting details that contribute to a comprehensive understanding.
+# Craft the summary to be self-contained, ensuring that readers can grasp the content even if they haven't read the context.
 # Provide context where necessary and avoid excessive technical jargon or verbosity.
 
 # **Important:**
-# 1. **Headings Structure:** 
+# 1. **Headings Structure:**
 #    - Use Markdown syntax to create clear and hierarchical headings.
 #    - Use `#` for main sections (H1) if the summary covers multiple major topics.
 #    - Use `##` for sub-sections (H2) to delineate key points or categories within the main sections.
 #    - Ensure each heading accurately reflects the content of its corresponding section.
 
-# 2. **Keyword Highlighting:** 
+# 2. **Keyword Highlighting:**
 #    - Identify and highlight key keywords in the summary by wrapping them in `<span>` tags with a specific background color.
 #    - Use the following format for highlighting: `<span style="background-color: #47b3b3;">keyword</span>`
 
@@ -278,29 +277,29 @@ Ensure that the scenarios are creative, relevant, and feasible, highlighting how
 
 # **Content:** Implementing AI in Classroom Management
 
-# **Scenario 1:** Enhancing Personalized Learning through AI  
+# **Scenario 1:** Enhancing Personalized Learning through AI
 # AI can revolutionize personalized learning by adapting educational content to fit each student's unique learning pace and style. This allows for more effective engagement and better academic outcomes.
 
 # **Questions:**
-# **Question 1:** What is a primary benefit of using AI for personalized learning?  
-# A) Reducing the need for teachers  
-# B) Personalizing learning experiences  
-# C) Increasing administrative workload  
-# D) Limiting student creativity  
+# **Question 1:** What is a primary benefit of using AI for personalized learning?
+# A) Reducing the need for teachers
+# B) Personalizing learning experiences
+# C) Increasing administrative workload
+# D) Limiting student creativity
 # **Answer:** B
 
-# **Question 2:** How can AI tools impact student engagement?  
-# A) By automating grading, making it less engaging  
-# B) By providing real-time feedback and interactive content  
-# C) By replacing all human interactions  
-# D) By restricting access to learning materials  
+# **Question 2:** How can AI tools impact student engagement?
+# A) By automating grading, making it less engaging
+# B) By providing real-time feedback and interactive content
+# C) By replacing all human interactions
+# D) By restricting access to learning materials
 # **Answer:** B
 
-# **Question 3:** What is a potential drawback of AI in personalized learning?  
-# A) Enhanced data privacy  
-# B) Improved teacher-student relationships  
-# C) Over-reliance on technology  
-# D) Increased manual tasks for teachers  
+# **Question 3:** What is a potential drawback of AI in personalized learning?
+# A) Enhanced data privacy
+# B) Improved teacher-student relationships
+# C) Over-reliance on technology
+# D) Increased manual tasks for teachers
 # **Answer:** C
 
 # **Content:** {content_text}
@@ -309,77 +308,160 @@ Ensure that the scenarios are creative, relevant, and feasible, highlighting how
 # """
 
 
+# MULTI_CHOICE_PROMPT = """
+# Based on the following content, perform the following tasks:
+# 1. **Generate Three Distinct Scenarios or Domains:**
+#    - Each scenario should be presented as a short paragraph.
+#    - Explore different aspects, applications, or implications of the article.
+#    - Ensure that each scenario is unique and does not overlap with the others.
+#    - The scenarios should be creative, relevant, and feasible, highlighting how they connect to the article's findings.
+
+# 2. **Create Multiple-Choice Questions for Each Scenario:**
+#    - For each scenario, generate three multiple-choice questions.
+#    - Each question should have four options labeled 'A' to 'D', with only one correct answer.
+#    - Ensure that the questions accurately assess understanding of the scenario.
+
+# 3. **Analyze Feedback:**
+#    - **Review Feedback Entries:**
+#      - Examine each feedback object, focusing on both the 'rating' and 'comments' fields.
+#      - Note the numerical ratings to gauge overall satisfaction.
+#      - Carefully read comments to understand specific praises, concerns, or suggestions.
+#    - **Identify Common Themes:**
+#      - Look for recurring issues or frequently mentioned points in the comments.
+#      - Categorize feedback into positive aspects to retain and areas needing improvement.
+#    - **Prioritize Feedback:**
+#      - Focus on feedback with lower ratings (e.g., below 4) as these indicate significant areas for enhancement.
+#      - Address the most common or impactful issues first to ensure the most critical problems are resolved.
+
+# 4. **Incorporate Feedback:**
+#    - **Adjust Scenario Generation:**
+#      - Modify scenarios to address any concerns or suggestions mentioned in the feedback.
+#      - Ensure that scenarios are diverse and cover all significant aspects as per user expectations.
+#    - **Enhance Question Quality:**
+#      - Revise questions to improve clarity, relevance, and difficulty based on feedback.
+#      - Ensure that the correct answers are accurate and that distractors (incorrect options) are plausible.
+#    - **Improve Overall Structure and Clarity:**
+#      - Reorganize scenarios and questions for better logical flow and coherence.
+#      - Simplify overly complex scenarios or questions, or add necessary details to under-explained areas.
+#    - **Validate Alignment with Expectations:**
+#      - Ensure that the final scenarios and questions closely align with user expectations and effectively address all highlighted areas from the feedback.
+
+# **Few-Shot Examples:**
+
+# **Content:** Implementing AI in Classroom Management
+
+# **Scenario 1:** Enhancing Personalized Learning through AI
+# AI can revolutionize personalized learning by adapting educational content to fit each student's unique learning pace and style. This allows for more effective engagement and better academic outcomes.
+
+# **Questions:**
+# **Question 1:** What is a primary benefit of using AI for personalized learning?
+# A) Reducing the need for teachers
+# B) Personalizing learning experiences
+# C) Increasing administrative workload
+# D) Limiting student creativity
+# **Answer:** B
+
+# **Question 2:** How can AI tools impact student engagement?
+# A) By automating grading, making it less engaging
+# B) By providing real-time feedback and interactive content
+# C) By replacing all human interactions
+# D) By restricting access to learning materials
+# **Answer:** B
+
+# **Question 3:** What is a potential drawback of AI in personalized learning?
+# A) Enhanced data privacy
+# B) Improved teacher-student relationships
+# C) Over-reliance on technology
+# D) Increased manual tasks for teachers
+# **Answer:** C
+
+# **Content:** {content_text}
+
+# **Feedback:**
+# {feedback}: A list of feedback objects in an array of JSON format. Each feedback object contains a 'rating' and 'comments' field.
+
+# **Scenarios and Questions:**
+# """
+
 MULTI_CHOICE_PROMPT = """
-Based on the following content, perform the following tasks:
-1. **Generate Three Distinct Scenarios or Domains:**
-   - Each scenario should be presented as a short paragraph.
-   - Explore different aspects, applications, or implications of the article.
-   - Ensure that each scenario is unique and does not overlap with the others.
-   - The scenarios should be creative, relevant, and feasible, highlighting how they connect to the article's findings.
+Based on the following content, perform the following tasks and provide the output in JSON format with the key 'ScenariosWithQuestions':
 
-2. **Create Multiple-Choice Questions for Each Scenario:**
-   - For each scenario, generate three multiple-choice questions.
-   - Each question should have four options labeled 'A' to 'D', with only one correct answer.
-   - Ensure that the questions accurately assess understanding of the scenario.
+Generate Three Distinct Scenarios or Domains:
 
-3. **Analyze Feedback:**
-   - **Review Feedback Entries:**
-     - Examine each feedback object, focusing on both the 'rating' and 'comments' fields.
-     - Note the numerical ratings to gauge overall satisfaction.
-     - Carefully read comments to understand specific praises, concerns, or suggestions.
-   - **Identify Common Themes:**
-     - Look for recurring issues or frequently mentioned points in the comments.
-     - Categorize feedback into positive aspects to retain and areas needing improvement.
-   - **Prioritize Feedback:**
-     - Focus on feedback with lower ratings (e.g., below 4) as these indicate significant areas for enhancement.
-     - Address the most common or impactful issues first to ensure the most critical problems are resolved.
+Each scenario should be presented as a short paragraph.
+Explore different aspects, applications, or implications of the article.
+Ensure that each scenario is unique and does not overlap with the others.
+The scenarios should be creative, relevant, and feasible, highlighting how they connect to the article's findings.
+Create Multiple-Choice Questions for Each Scenario:
 
-4. **Incorporate Feedback:**
-   - **Adjust Scenario Generation:**
-     - Modify scenarios to address any concerns or suggestions mentioned in the feedback.
-     - Ensure that scenarios are diverse and cover all significant aspects as per user expectations.
-   - **Enhance Question Quality:**
-     - Revise questions to improve clarity, relevance, and difficulty based on feedback.
-     - Ensure that the correct answers are accurate and that distractors (incorrect options) are plausible.
-   - **Improve Overall Structure and Clarity:**
-     - Reorganize scenarios and questions for better logical flow and coherence.
-     - Simplify overly complex scenarios or questions, or add necessary details to under-explained areas.
-   - **Validate Alignment with Expectations:**
-     - Ensure that the final scenarios and questions closely align with user expectations and effectively address all highlighted areas from the feedback.
+For each scenario, generate three multiple-choice questions.
+Each question should have four options labeled 'A' to 'D', with only one correct answer.
+Ensure that the questions accurately assess understanding of the scenario.
+Analyze Feedback:
 
-**Few-Shot Examples:**
+Review Feedback Entries:
+Examine each feedback object, focusing on both the 'rating' and 'comments' fields.
+Note the numerical ratings to gauge overall satisfaction.
+Carefully read comments to understand specific praises, concerns, or suggestions.
+Identify Common Themes:
+Look for recurring issues or frequently mentioned points in the comments.
+Categorize feedback into positive aspects to retain and areas needing improvement.
+Prioritize Feedback:
+Focus on feedback with lower ratings (e.g., below 4) as these indicate significant areas for enhancement.
+Address the most common or impactful issues first to ensure the most critical problems are resolved.
+Incorporate Feedback:
 
-**Content:** Implementing AI in Classroom Management
-
-**Scenario 1:** Enhancing Personalized Learning through AI  
-AI can revolutionize personalized learning by adapting educational content to fit each student's unique learning pace and style. This allows for more effective engagement and better academic outcomes.
-
-**Questions:**
-**Question 1:** What is a primary benefit of using AI for personalized learning?  
-A) Reducing the need for teachers  
-B) Personalizing learning experiences  
-C) Increasing administrative workload  
-D) Limiting student creativity  
-**Answer:** B
-
-**Question 2:** How can AI tools impact student engagement?  
-A) By automating grading, making it less engaging  
-B) By providing real-time feedback and interactive content  
-C) By replacing all human interactions  
-D) By restricting access to learning materials  
-**Answer:** B
-
-**Question 3:** What is a potential drawback of AI in personalized learning?  
-A) Enhanced data privacy  
-B) Improved teacher-student relationships  
-C) Over-reliance on technology  
-D) Increased manual tasks for teachers  
-**Answer:** C
-
+Adjust Scenario Generation:
+Modify scenarios to address any concerns or suggestions mentioned in the feedback.
+Ensure that scenarios are diverse and cover all significant aspects as per user expectations.
+Enhance Question Quality:
+Revise questions to improve clarity, relevance, and difficulty based on feedback.
+Ensure that the correct answers are accurate and that distractors (incorrect options) are plausible.
+Improve Overall Structure and Clarity:
+Reorganize scenarios and questions for better logical flow and coherence.
+Simplify overly complex scenarios or questions, or add necessary details to under-explained areas.
+Validate Alignment with Expectations:
+Ensure that the final scenarios and questions closely align with user expectations and effectively address all highlighted areas from the feedback.
 **Content:** {content_text}
 
 **Feedback:**
 {feedback}: A list of feedback objects in an array of JSON format. Each feedback object contains a 'rating' and 'comments' field.
 
-**Scenarios and Questions:**
+Output Format:
+Provide the final output in JSON format as follows:
+
+json
+
+```json
+{{
+  "ScenariosWithQuestions": {{
+    "scenarios": [
+      {{
+        "scenario": "First scenario text...",
+        "questions": [
+          {{
+            "question": "First question text...",
+            "options": {{
+              "A": "Option A",
+              "B": "Option B",
+              "C": "Option C",
+              "D": "Option D"
+            }},
+            "answer": "Correct option (e.g., 'A')"
+          }}
+          // Additional questions for the first scenario
+        ]
+      }}
+      // Additional scenarios with their questions
+    ]
+  }}
+}}
+
+
+
+
+Instructions:
+Ensure that the final output adheres strictly to the JSON format provided.
+Include all necessary keys, especially 'ScenariosWithQuestions' and 'scenarios'.
+Validate the JSON structure to prevent any missing or malformed elements.
 """
